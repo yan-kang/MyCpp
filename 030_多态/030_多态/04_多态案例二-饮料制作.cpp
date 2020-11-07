@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-//制作饮料
-//利用多态实现 提供抽象类制作饮品基类 提供子类制作咖啡和茶叶
+//锟斤拷锟斤拷锟斤拷锟斤拷
+//锟斤拷锟矫讹拷态实锟斤拷 锟结供锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷品锟斤拷锟斤拷 锟结供锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟饺和诧拷叶
 
-//抽象类
+//锟斤拷锟斤拷锟斤拷
 class AbstractDrink {
 public:
 	virtual void boil() = 0;
@@ -19,45 +19,45 @@ public:
 	}
 };
 
-//咖啡类
+//锟斤拷锟斤拷锟斤拷
 class Coffee :public AbstractDrink {
 public:
 	void boil() {
-		cout << "烧水" << endl;
+		cout << "锟斤拷水" << endl;
 	}
 	virtual void brew() {
-		cout << "冲泡咖啡" << endl;
+		cout << "锟斤拷锟捷匡拷锟斤拷" << endl;
 	}
 	virtual void pourInCup() {
-		cout << "倒入杯中" << endl;
+		cout << "锟斤拷锟诫杯锟斤拷" << endl;
 	}
 	virtual void putSomething() {
-		cout << "加入糖和牛奶" << endl;
+		cout << "锟斤拷锟斤拷锟角猴拷牛锟斤拷" << endl;
 	}
 	~Coffee() {
-		cout << "咖啡析构" << endl;
+		cout << "锟斤拷锟斤拷锟斤拷锟斤拷" << endl;
 	}
 };
-//茶类
+//锟斤拷锟斤拷
 class Tea :public AbstractDrink {
 public:
 	void boil() {
-		cout << "烧水" << endl;
+		cout << "锟斤拷水" << endl;
 	}
 	virtual void brew() {
-		cout << "冲泡茶叶" << endl;
+		cout << "锟斤拷锟捷诧拷叶" << endl;
 	}
 	virtual void pourInCup() {
-		cout << "倒入杯中" << endl;
+		cout << "锟斤拷锟诫杯锟斤拷" << endl;
 	}
 	virtual void putSomething() {
-		cout << "加入柠檬" << endl;
+		cout << "锟斤拷锟斤拷锟斤拷锟斤拷" << endl;
 	}
 	Tea() {
-		cout << "茶构造" << endl;
+		cout << "锟借构锟斤拷" << endl;
 	}
 	~Tea() {
-		cout << "茶析构" << endl;
+		cout << "锟斤拷锟斤拷锟斤拷" << endl;
 	}
 };
 void doWork(AbstractDrink *abs) {
@@ -65,14 +65,15 @@ void doWork(AbstractDrink *abs) {
 	delete abs;
 }
 void test41() {
-	//制作咖啡
+	//锟斤拷锟斤拷锟斤拷锟斤拷
 	doWork(new Coffee);
 	cout << "--------------" << endl;
-	//制作茶
+	//锟斤拷锟斤拷锟斤拷
 	doWork(new Tea);
 	system("pause");
 }
 int main() {
 	test41();
+	
 	return 0;
 }
