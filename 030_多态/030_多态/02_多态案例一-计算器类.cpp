@@ -100,8 +100,8 @@ void test022() {
 	//使用完 销毁
 	delete cal;
 }
-int main() {
-	test021();
-	test022();
-	return 0;
-}
+//int main() {
+//	test021();
+//	test022();
+//	return 0;
+//}
