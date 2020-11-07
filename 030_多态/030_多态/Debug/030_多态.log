@@ -1,0 +1,3 @@
+﻿  02_多态案例一-计算器类.cpp
+D:\Projects\my-cpp\030_多态\030_多态\02_多态案例一-计算器类.cpp(27): warning C4715: “Caculator::getResult”: 不是所有的控件路径都返回值
+  030_多态.vcxproj -> D:\Projects\my-cpp\030_多态\Debug\030_多态.exe
