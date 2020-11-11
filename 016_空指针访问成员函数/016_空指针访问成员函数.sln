@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "016_空指针访问成员函数", "016_空指针访问成员函数\016_空指针访问成员函数.vcxproj", "{B3204F8B-B7AD-4C8E-AE0B-80251D7BCA19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3204F8B-B7AD-4C8E-AE0B-80251D7BCA19}.Debug|x64.ActiveCfg = Debug|x64
+		{B3204F8B-B7AD-4C8E-AE0B-80251D7BCA19}.Debug|x64.Build.0 = Debug|x64
+		{B3204F8B-B7AD-4C8E-AE0B-80251D7BCA19}.Debug|x86.ActiveCfg = Debug|Win32
+		{B3204F8B-B7AD-4C8E-AE0B-80251D7BCA19}.Debug|x86.Build.0 = Debug|Win32
+		{B3204F8B-B7AD-4C8E-AE0B-80251D7BCA19}.Release|x64.ActiveCfg = Release|x64
+		{B3204F8B-B7AD-4C8E-AE0B-80251D7BCA19}.Release|x64.Build.0 = Release|x64
+		{B3204F8B-B7AD-4C8E-AE0B-80251D7BCA19}.Release|x86.ActiveCfg = Release|Win32
+		{B3204F8B-B7AD-4C8E-AE0B-80251D7BCA19}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7718568B-31AC-4D6C-B900-96C13C76B1B4}
+	EndGlobalSection
+EndGlobal
