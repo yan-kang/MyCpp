@@ -9,7 +9,7 @@
 
 平台：Windows 10 2004  
 编辑器：Sublime Text  
-编译工具：gcc 9.2.0(tdm)，mingw32-make(重命名为make)    
+编译工具：gcc 9.2.0(tdm)，mingw32-make  
 <h3>2020.11</h3>
 
 更换平台为visual studio 2019  
