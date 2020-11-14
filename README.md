@@ -1,5 +1,5 @@
-<h2>注意事项：</h2>
-1.大部分文件未包含&lt;string&gt;头文件，在低版本IDE中可能会报错  
+<h2>注意事项：</h2>  
+1.大部分文件未包含&lt;string&gt;头文件，在低版本IDE中可能会报错    
 2.在代码中可能会出现system("pause")或者system("clear")等，由于平台不同可能会出错，如"pause"在macOS和Linux下不可用，"clear"在Windows下不可用  
 
 ---  
