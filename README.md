@@ -5,13 +5,13 @@
 
 ---  
 ##<h2>日志：</h2>
-###<h3>2020.11.24</h3>
+<h3>2020.11.24</h3>
 平台：Windows 10 2004
 编辑器：Sublime Text
-编译工具：gcc 9.2.0(tdm)，mingw32-make(重命名为make)
-###<h3>2020.11</h3>
+编译工具：gcc 9.2.0(tdm)，mingw32-make(重命名为make)  
+<h3>2020.11</h3>
 更换平台为visual studio 2019  
-##<h3>2020.10</h3>
+<h3>2020.10</h3>
 平台为：Catalina+Xcode12  
   
 ---
