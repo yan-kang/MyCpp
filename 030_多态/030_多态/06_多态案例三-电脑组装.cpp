@@ -133,6 +133,7 @@ void test01(){
 	Computer *comp2=new Computer(new AMDCPU,new AMDGPU,new AMDMEM);
 	comp2->work();
 	delete comp2;
+	
 	//第三台电脑
 	cout<<"-----------------"<<endl;
 	Computer *comp3=new Computer(new IntelCPU,new AMDGPU,new IntelMEM);
