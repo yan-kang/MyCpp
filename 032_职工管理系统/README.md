@@ -1,3 +1,12 @@
+<!--
+ * Author: kang
+ * Date: 2020-11-16 00:01:44
+ * LastEditors: kang
+ * LastEditTime: 2020-11-30 20:44:19
+ * FilePath: \my-cpp\032_职工管理系统\README.md
+ * Description: 职工管理系统说明文档
+-->
+
 <h2>前言</h2>
 
 利用C++实现一个基于多态的职工管理系统  

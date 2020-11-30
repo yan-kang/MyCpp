@@ -1,3 +1,11 @@
+<!--
+ * Author: kang
+ * Date: 2020-11-03 13:13:11
+ * LastEditors: kang
+ * LastEditTime: 2020-11-30 20:43:36
+ * FilePath: \my-cpp\README.md
+ * Description: 说明文档
+-->
 <h2>注意事项：</h2>
 
 1.大部分文件未包含&lt;string&gt;头文件，在低版本IDE中可能会报错  
@@ -5,7 +13,10 @@
 
 ---  
 <h2>日志：</h2>
-<h3>2020.11.24</h3>
+<h3>2020.11.30</h3>
+
+由于硬盘意外格式化，更换编辑器为visual studio code，其他不变
+<h3>2020.11.14</h3>
 
 平台：Windows 10 2004  
 编辑器：Sublime Text  
