@@ -26,5 +26,5 @@ void Employee::showInfo(){
 		<<"\t职责：完成经理下发任务"<<endl;
 }
 string Employee::getDeptName(){
-	return "普通职员";
+	return string("普通职员");
 }

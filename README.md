@@ -2,14 +2,14 @@
  * Author: kang
  * Date: 2020-11-03 13:13:11
  * LastEditors: kang
- * LastEditTime: 2020-11-30 20:43:36
+ * LastEditTime: 2020-12-01 15:06:11
  * FilePath: \my-cpp\README.md
  * Description: 说明文档
 -->
 <h2>注意事项：</h2>
 
 1.大部分文件未包含&lt;string&gt;头文件，在低版本IDE中可能会报错  
-2.在代码中可能会出现system("pause")或者system("clear")等，由于平台不同可能会出错，如"pause"在macOS和Linux下不可用，"clear"在Windows下不可用  
+2.在代码中可能会出现system("pause")或者system("clear")等，由于平台不同可能会出错，如"pause"在macOS和Linux下不可用，"clear"在Windows下不可用,应当使用"cls"  
 
 ---  
 <h2>日志：</h2>

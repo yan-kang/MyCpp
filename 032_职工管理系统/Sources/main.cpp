@@ -2,15 +2,29 @@
  * Author: kang
  * Date: 2020-11-15 23:49:02
  * LastEditors: kang
- * LastEditTime: 2020-11-30 23:53:56
- * FilePath: \my-cpp\032_职工管理系统\Sources\main.cpp
+ * LastEditTime: 2020-12-05 00:04:47
+ * FilePath: \032_职工管理系统\Sources\main.cpp
  * Description: 职工管理系统
  */
-#include "../Headers/empMana.h"
+#include "../Headers/workerManager.h"
 int main(int argc, char const *argv[])
 {
-	/* code */
+	//测试代码
+	// Worker *worker = NULL;
+	// worker=new Employee(1,"张三",1);
+	// worker->showInfo();
+	// delete worker;
 
+	// worker = new Manager(2,"李四",2);
+	// worker->showInfo();
+	// delete worker;
+
+	// worker = new Boss(2,"李四",2);
+	// worker->showInfo();
+	// delete worker;
+	
+	
+	/* code */
 	//实例化管理对象
 	WorkerManager workerManager;
 	int choice = 0;
@@ -23,6 +37,7 @@ int main(int argc, char const *argv[])
 				workerManager.exitSystem();
 				break;
 			case 1://添加职工
+				workerManager.AddEmp();
 				break;
 			case 2://显示职工
 				break;
